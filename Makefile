@@ -43,8 +43,8 @@ help:
 	@echo "       Clean and create bdist and wheel"
 	@echo "make clean [env=<conda|venv>]"
 	@echo "       Delete all './build ./dist ./*.pyc ./*.tgz ./*.egg-info' files"
-#	@echo "make tests [env=<conda|venv>]"
-#	@echo "       Run all tests"
+	@echo "make tests [env=<conda|venv>]"
+	@echo "       Run all tests"
 	@echo "make create_env [env=<conda|venv>]"
 	@echo "       Create a new conda env or venv for the specified python version"
 	@echo "make delete_env [env=<conda|venv>]"
@@ -77,10 +77,11 @@ dist_test:
 clean:
 	python setup.py clean
 tests:
-	python setup.py test
+	@# python setup.py test
+	@echo "No tests are defined. Skipping.."
 create_env:
 	@eval $(CREATE_COMMAND)
 delete_env:
 	@eval $(DELETE_COMMAND)
 
-.PHONY: all help release conda_release pypi clean dist tests create_env delete_env dist_test pypi_test release_test
+.PHONY: all help release release_requirements conda_release pypi clean dist tests create_env delete_env dist_test pypi_test release_test

@@ -5,14 +5,14 @@
 ## About <a name = "about"></a>
 
 A collection of benchmarking
-tools. [PYPI Package](https://pypi.org/manage/project/bench-utils/releases/)
+tools. [PYPI Package](https://pypi.org/project/bench-utils/)
 
 ## Table of Contents
 
 + [Using the library](#using)
     + [Installing and using the library](#install_use)
 + [Manually install the library](#manual_install)
-    + [Prerequisites](#configuration)
+    + [Prerequisites](#prerequisites)
     + [Install the requirements](#installing_req)
 + [License](#license)
 
