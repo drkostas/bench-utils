@@ -96,7 +96,7 @@ Then, execute the following commands:
 
 ```ShellSession
 $ make create_env
-$ conda activate yaml_config_wrapper
+$ conda activate bench_utils
 $ make dist
 ```
 
@@ -121,7 +121,7 @@ Finally, execute the following commands:
 
 ```ShellSession
 $ make create_env
-$ conda activate yaml_config_wrapper
+$ conda activate bench_utils
 $ make release
 ```
 
