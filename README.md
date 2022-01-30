@@ -1,5 +1,6 @@
 # Benchmark Utilities
 
+[![Downloads](https://static.pepy.tech/personalized-badge/bench-utils?period=total&units=international_system&left_color=grey&right_color=red&left_text=Downloads)](https://pepy.tech/project/bench-utils)
 [![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/drkostas/bench-utils/blob/master/LICENSE)
 
 ## About <a name = "about"></a>
