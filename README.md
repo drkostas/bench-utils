@@ -1,3 +1,5 @@
+![bench-utils](docs/images/banner.png)
+
 # Benchmark Utilities
 
 [![Downloads](https://static.pepy.tech/personalized-badge/bench-utils?period=total&units=international_system&left_color=grey&right_color=red&left_text=Downloads)](https://pepy.tech/project/bench-utils)
