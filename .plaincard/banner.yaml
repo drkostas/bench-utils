@@ -1,0 +1,14 @@
+kind: banner
+name: bench-utils
+line: Python tools that time your functions and show how fast your code runs.
+accent: violet
+diagram:
+- terminal:
+    label: your code
+- arrow
+- box:
+    text: timer
+    accent: true
+- arrow
+- chart:
+    label: timings
